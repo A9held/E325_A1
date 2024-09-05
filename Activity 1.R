@@ -30,8 +30,9 @@ peakNames = c("Mount Marcy", "Algonquin Peak", "Mount Haystack")
 peaks[1:2]
 
 highPeaks = data.frame(elevation = peaks, 
-                       prom = prom
+                       prom = prom,
                        name = peakNames)
+
 
 highPeaks[1,1]
 
