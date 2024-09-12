@@ -37,4 +37,10 @@ highPeaks = data.frame(elevation = peaks,
 highPeaks[1,1]
 
 
+highPeaks = data.frame(name = c("Mount Haystack", "Mount Skylight", "Dix Mountain", "Grey Peak"), 
+                       elevation = c(4960, 4926, 4857, 4840),
+                       ascent = c(3570, 4265, 2800, 4178),
+                       tripLength = c(17.8, 17.9, 13.2, 16))
+highPeaks[highPeaks$tripLength ==17.9]
+
 
